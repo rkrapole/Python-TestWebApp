@@ -10,7 +10,7 @@ from selenium.webdriver.firefox import webelement
 driver = webdriver.Chrome(executable_path="C:\\DevSecOps\chromedriver.exe")
 driver.maximize_window()
 
-driver.get("http://localhost:6060/RkmavenProject_Test/")
+driver.get("http://localhost:6060/RkmavenProject/")
 time.sleep(2)
 
 buttontext = driver.find_element_by_xpath(".//*[@value='SEND MESSAGE']").get_attribute('value')
